@@ -1,0 +1,175 @@
+{
+    "id": 1011,
+    "name": "Xiaomi Note 8",
+    "slug": "xiaomi-note-8",
+    "permalink": "https://proesba.shop/producto/xiaomi-note-8/",
+    "date_created": "2022-11-11T22:53:45",
+    "date_created_gmt": "2022-11-11T22:53:45",
+    "date_modified": "2022-11-14T18:38:57",
+    "date_modified_gmt": "2022-11-14T18:38:57",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>ASDADASDASDADASDASDASDASD ASD LOREM</p>\n",
+    "short_description": "<p>FSDFDS FSD FSDF SDFSDFDSFSDFSDFSDFSDSDDS  XCF SD FS SDFSD</p>\n",
+    "sku": "13SSCWQ1",
+    "price": "6467",
+    "regular_price": "6467",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": true,
+    "stock_quantity": 10,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": 1,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": false,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+        {
+            "id": 69,
+            "name": "Accesorios",
+            "slug": "accesorios"
+        }
+    ],
+    "tags": [
+        {
+            "id": 70,
+            "name": "Xiaomi",
+            "slug": "xiaomi"
+        }
+    ],
+    "images": [
+        {
+            "id": 408,
+            "date_created": "2021-09-13T15:23:00",
+            "date_created_gmt": "2021-09-13T15:23:00",
+            "date_modified": "2021-09-13T15:23:00",
+            "date_modified_gmt": "2021-09-13T15:23:00",
+            "src": "https://proesba.shop/wp-content/uploads/2021/09/bethemestore-product-pic5-4.webp",
+            "name": "bethemestore-product-pic5",
+            "alt": ""
+        },
+        {
+            "id": 398,
+            "date_created": "2021-09-13T15:19:48",
+            "date_created_gmt": "2021-09-13T15:19:48",
+            "date_modified": "2021-09-13T15:19:48",
+            "date_modified_gmt": "2021-09-13T15:19:48",
+            "src": "https://proesba.shop/wp-content/uploads/2021/09/bethemestore-productdetails-pic5-2.webp",
+            "name": "bethemestore-productdetails-pic5",
+            "alt": ""
+        }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>7,502</bdi></span>",
+    "related_ids": [
+        1015,
+        1019,
+        1017,
+        1013
+    ],
+    "meta_data": [
+        {
+            "id": 8618,
+            "key": "_wp_page_template",
+            "value": "default"
+        },
+        {
+            "id": 8619,
+            "key": "mfn-page-local-style",
+            "value": "{\"custom\":[],\"global\":[],\"tablet\":[],\"mobile\":[],\"fonts\":[]}"
+        },
+        {
+            "id": 8620,
+            "key": "mfn_header_template",
+            "value": "0"
+        },
+        {
+            "id": 8621,
+            "key": "mfn_footer_template",
+            "value": "0"
+        },
+        {
+            "id": 8622,
+            "key": "mfn_single_product_template",
+            "value": "0"
+        },
+        {
+            "id": 9442,
+            "key": "_alg_wc_cog_cost",
+            "value": "5949.62"
+        },
+        {
+            "id": 9443,
+            "key": "_alg_wc_cog_profit",
+            "value": "0"
+        },
+        {
+            "id": 9444,
+            "key": "_alg_wc_cog_profit_percent",
+            "value": "0"
+        },
+        {
+            "id": 9445,
+            "key": "_alg_wc_cog_profit_margin",
+            "value": "0"
+        },
+        {
+            "id": 9670,
+            "key": "mfn_product_cat_template",
+            "value": "382"
+        }
+    ],
+    "stock_status": "instock",
+    "has_options": false,
+    "brands": [],
+    "_links": {
+        "self": [
+            {
+                "href": "https://proesba.shop/wp-json/wc/v3/products/1011"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https://proesba.shop/wp-json/wc/v3/products"
+            }
+        ]
+    }
+}

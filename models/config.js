@@ -1,28 +1,96 @@
 require('dotenv').config()
 
+
 class Config {
 
-    get paramsPriceAvailability(){
+    get paramWooCommerceCategoriesList(){
         return {
-            'includeAvailability': false,
-            'includePricing': true,
-            'includeProductAttributes' : false
+            'per_page': 45
         }
     }
 
-    async configIngram(){
-
+    get paramsIngramPriceAvalibity(){
+        return {
+            
+            includeAvailability: 'true',
+            includePricing: 'true',
+            includeProductAttributes : 'false'
+        }
     }
+
+    async clavesWooForProducts(){
+        let ajustes = {
+            auth: {
+                username:`${process.env.CONSUMER_KEY}`,
+                password: `${process.env.CONSUMER_SECRECT}`
+            }
+        }
+        return ajustes;
+    }
+    
 
     async clavesWoo(){
         let ajustes = {
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Basic Y2tfMjU1NWI4NTk1NzZhMmZkMjM0ZDEwNDViMGEyYjIwYjE4ZmE1ODM5MDpjc19kYzdhYzZjZTgxNjFlNWI0NmFlYmZjY2M0ZmJhNWFiODM1OWZlYTBj'
+            },
+            auth: {
+                username:`${process.env.CONSUMER_KEY}`,
+                password: `${process.env.CONSUMER_SECRECT}`
             }
         }
         return ajustes;
     }
+
+    async claveCategoria(){
+        let ajustes = {
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            params: {
+                ...this.paramWooCommerceCategoriesList
+            },
+            auth: {
+                username:`${process.env.CONSUMER_KEY}`,
+                password: `${process.env.CONSUMER_SECRECT}`
+            }
+        }
+        return ajustes;
+    }
+
+    async claveProductos(){
+        let ajustes = {
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            params: {
+                ...this.paramWooCommerceCategoriesList
+            },
+            auth: {
+                username:`${process.env.CONSUMER_KEY}`,
+                password: `${process.env.CONSUMER_SECRECT}`
+            }
+        }
+    }
+
+    async configIngram(){
+        let ajustes = {
+            params: this.paramsIngramPriceAvalibity,
+            headers: { 
+                'IM-CustomerNumber': '50-000060', 
+                'IM-CountryCode': 'MX', 
+                'IM-CorrelationID': 'fbac82ba-cf0a-4bcf-fc03-0c5084', 
+                Authorization: `Bearer ${ process.env.TOKEN}`,
+                'Accept': 'application/json'
+              }
+            
+        }
+
+        return ajustes;
+    }
+    
+    
+   
 }
 
 module.exports = Config

@@ -1,0 +1,100 @@
+{
+    "brands": [
+        {
+            "id": 85,
+            "name": "ViewSonic",
+            "slug": "viewsonic"
+        }
+    ],
+    "brands": [
+        {
+            "id": 77,
+            "name": "TRIPPLITE",
+            "slug": "tripplite"
+        }
+    ],
+    "brands": [
+        {
+            "id": 83,
+            "name": "SANSUI",
+            "slug": "sansui"
+        }
+    ],
+    "brands": [
+        {
+            "id": 84,
+            "name": "Samsung",
+            "slug": "samsung"
+        }
+    ],
+    "brands": [
+        {
+            "id": 73,
+            "name": "Apple",
+            "slug": "apple"
+        }
+    ],
+    "brands": [
+        {
+            "id": 74,
+            "name": "BenQ",
+            "slug": "benq"
+        }
+    ],
+    "brands": [
+        {
+            "id": 81,
+            "name": "Hewlett Packard",
+            "slug": "hewlett-packard"
+        }
+    ],
+    "brands": [
+        {
+            "id": 82,
+            "name": "Hisense",
+            "slug": "hisense"
+        }
+    ],
+    "brands": [
+        {
+            "id": 80,
+            "name": "HP IMPRESIÓN",
+            "slug": "hp-impresion"
+        }
+    ],
+    "brands": [
+        {
+            "id": 78,
+            "name": "Linksys",
+            "slug": "linksys"
+        }
+    ],
+    "brands": [
+        {
+            "id": 79,
+            "name": "LINKSYS USA, INC.",
+            "slug": "linksys-usa-inc"
+        }
+    ],
+    "brands": [
+        {
+            "id": 75,
+            "name": "Logitech",
+            "slug": "logitech"
+        }
+    ],
+    "brands": [
+        {
+            "id": 86,
+            "name": "Perfect Choice",
+            "slug": "perfect-choice"
+        }
+    ],
+    "brands": [
+        {
+            "id": 76,
+            "name": "Poly",
+            "slug": "poly"
+        }
+    ]
+}
