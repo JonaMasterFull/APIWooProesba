@@ -38,7 +38,7 @@ const main = async () => {
 
     const UpdateProductsWoo = await pricesBDI.UpdatePrices(verificarID, config)
 
-    console.log();
+    console.log(UpdateProductsWoo);
     
     //const skuEquals = await pricesBDI.updatePricesWoo(SkuWoo)
 
